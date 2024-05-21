@@ -4,9 +4,9 @@ import React,{useState} from 'react'
 
 
 function UpdatingState() {
-    let value = 0;
-    const Increment = () => {value = value + 1}
-    const Decrement = () => {value = value - 1}
+    const [value, setvalue] = useState (0);
+    const Increment = () => {setvalue(value + 1)}
+    const Decrement = () => {setvalue(value - 1)}
 
   return (
   <div className='flex gap-5 justify-center items-center'>
