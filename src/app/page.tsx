@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { useState } from "react";
-import UpdatingState from "@/components/UpdatingState";
+import UpdatingState from "@/components/Counterapp";
 import { Fragment } from "react";
 export default function Home() {
   return (
