@@ -9,7 +9,7 @@ export default function Home() {
     Counter App
     </div>
       <div>
-         <UpdatingState/>
+         <UpdatingState count1 = {10} count2 = {20} count3 = {30} count4 = {40}/>
       </div>
      </Fragment>
     
