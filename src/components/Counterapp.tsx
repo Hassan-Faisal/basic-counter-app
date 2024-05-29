@@ -4,7 +4,8 @@ import React,{useState} from 'react'
 
 
 function UpdatingState(props:any) {
-    const [value, setvalue] = useState (props.count1);
+    //const [value, setvalue] = useState (props.count1);
+    const [value, setvalue] = useState (0);
     const Increment = () => {setvalue(value + 1)}
     const Decrement = () => {setvalue(value - 1)}
 
